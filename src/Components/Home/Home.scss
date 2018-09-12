@@ -1,0 +1,36 @@
+.hobbyit-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-color: #88BDBC;
+  color: white;
+  width: 500px;
+  margin: 50px auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.hobbyit-hobbies {
+  width: 40%;
+  margin: 80px 10px 10px 10px;
+  order: 1
+}
+
+.hobbyit--hobby-data {
+  width: 60%;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.hobbyit-week {
+  margin: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  order: 1
+}
+
+.hobbyit-analytics {
+  margin: 5px;
+  order: 2
+}

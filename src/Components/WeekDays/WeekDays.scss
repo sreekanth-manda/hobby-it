@@ -1,0 +1,36 @@
+.hobbyit-week__start-of-week,
+.hobbyit-week__end-of-week {
+  padding: 10px 0px 10px 10px;
+}
+
+.hobbyit-week__heading,
+.hobbyit-week__weekdays
+ {
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+}
+
+.hobbyit-week__start-of-week::after {
+  content: '--';
+  padding-left: 10px;
+}
+
+.hobbyit-week__end-of-week {
+  padding-right: 10px;
+}
+
+.hobbyit-week__weekday {
+  margin: 10px;
+}
+
+.hobbyit-week__weekday--highlight {
+  height: 200px;
+  width: 200px;
+  background:black;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  color: white;
+  padding: 8px;
+}

@@ -1,0 +1,10 @@
+.hobbyit-hobby {
+  display: flex;
+  margin: 5px 10px 10px 5px;
+  padding: 5px;
+  //background-color: gainsboro;
+
+  &__id {
+    width: 15%;
+  }
+}
